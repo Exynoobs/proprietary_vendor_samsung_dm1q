@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/dm1q/proprietary/vendor/etc/sensors/config/kailua_lsm6dso_0_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_lsm6dso_0_1.json \
     vendor/samsung/dm1q/proprietary/vendor/etc/sensors/config/kailua_stk3a9x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_stk3a9x_0.json \
     vendor/samsung/dm1q/proprietary/vendor/etc/sensors/config/lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lsm6dso_0.json \
+    vendor/samsung/dm1q/proprietary/vendor/etc/sensors/config/sns_gyro_cal.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_gyro_cal.json \
     vendor/samsung/dm1q/proprietary/vendor/etc/situation_audio_policy_volumes_sec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/situation_audio_policy_volumes_sec.xml \
     vendor/samsung/dm1q/proprietary/vendor/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b00 \
     vendor/samsung/dm1q/proprietary/vendor/firmware/CAMERA_ICP.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b01 \
@@ -327,8 +328,11 @@ PRODUCT_PACKAGES += \
     libcom.qti.chinodeutils \
     libhypermotion_interface \
     libndfilter_preview.uniplugin@1.0 \
+    libqfp_sensortest \
     librecordalive \
     libsehbluetooth_audio_session_aidl \
+    libsfp_sensor \
+    libsfp_teegw \
     libsoc_helper \
     libthirdparty_zoomtranslator_imp \
     libtriplecam_image_optical_zoom \
