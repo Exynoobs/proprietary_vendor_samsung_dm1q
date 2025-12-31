@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/dm1q/proprietary/vendor/etc/audconf/OPEN/acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/acdb_cal.acdb \
     vendor/samsung/dm1q/proprietary/vendor/etc/audconf/OPEN/workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/workspaceFileXml.qwsp \
     vendor/samsung/dm1q/proprietary/vendor/etc/audio/sku_kalama/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/mixer_paths.xml \
+    vendor/samsung/dm1q/proprietary/vendor/etc/audio/sku_kalama/resourcemanager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/resourcemanager.xml \
     vendor/samsung/dm1q/proprietary/vendor/etc/audio_effects_haptic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects_haptic.xml \
     vendor/samsung/dm1q/proprietary/vendor/etc/display/qdcm_calib_data_DM1_LX83118_CM002.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_DM1_LX83118_CM002.json \
     vendor/samsung/dm1q/proprietary/vendor/etc/display/qdcm_calib_data_DM1_S6E3FAC_AMB606AW01.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_DM1_S6E3FAC_AMB606AW01.json \
@@ -41,6 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/dm1q/proprietary/vendor/etc/sensors/config/lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lsm6dso_0.json \
     vendor/samsung/dm1q/proprietary/vendor/etc/sensors/config/sns_gyro_cal.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_gyro_cal.json \
     vendor/samsung/dm1q/proprietary/vendor/etc/situation_audio_policy_volumes_sec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/situation_audio_policy_volumes_sec.xml \
+    vendor/samsung/dm1q/proprietary/vendor/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml \
     vendor/samsung/dm1q/proprietary/vendor/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b00 \
     vendor/samsung/dm1q/proprietary/vendor/firmware/CAMERA_ICP.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b01 \
     vendor/samsung/dm1q/proprietary/vendor/firmware/CAMERA_ICP.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b02 \
@@ -328,6 +330,7 @@ PRODUCT_PACKAGES += \
     libcom.qti.chinodeutils \
     libhypermotion_interface \
     libndfilter_preview.uniplugin@1.0 \
+    libqc2audio_hwaudiocodec \
     libqfp_sensortest \
     librecordalive \
     libsehbluetooth_audio_session_aidl \
